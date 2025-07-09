@@ -1,0 +1,73 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+pip-selfcheck.json
+
+# Environment variables
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+.coverage.*
+
+# Django/Flask/FastAPI specific
+instance/
+*.sqlite3
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pycharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# Logs
+*.log
+logs/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Language server protocol
+.pyre/
+.pytype/
+.dmypy.json
+.pyright/
+
+# Bandit security scanner
+bandit.yaml
+
+# Test results
+test-results/
